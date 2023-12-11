@@ -9,7 +9,7 @@ function Person (person_name, person_age, person_gender, person_occupation) {
     
 // greeting
     this.greet = function () {
-        return ('Hello and Welcome tothe team, glad to have you here' + '' + this.name);
+        return ('Hello and Welcome to the team, glad to have you here' + '' + this.name);
     }
 }
 
@@ -20,8 +20,10 @@ const Person3 = new Person ('Paul', 30, 'male', 'Banker')
 const Person4 = new Person ('Samantha', 30, 'female', 'Architect')
 
 // accessing the properties
+console.log ('Hello, and welcome to the team')
 console.log (Person1.name); // "Mary"
 console.log (Person2.name); // "David"
 console.log (Person3.name); // "Paul"
 console.log (Person4.name); // "Samantha"
+
 
